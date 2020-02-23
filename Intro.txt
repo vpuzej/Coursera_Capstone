@@ -1,0 +1,31 @@
+
+1. Introduction
+
+
+1.1 Background.
+
+   The XYZ Corp is looking forward to relocate part of its business           operations  from NY city to Toronto.Among many business considerations
+   is one voiced by HR department.Bussiness nature of XYZ corp will           require moving number of employees from NY city to Toronto.
+   HR is concerned about cultural and quality of life changes for these
+   employees that will move to Toronto.
+
+1.2 Problem
+
+    Information on cultural and lifestyle similarities between Toronto
+    and New York is not readily available and is not easily measurable.
+
+
+1.3 Interest
+
+    HR department of XYZ Corp is deeply concerned that relocating some         of employees to Toronto might be a failure due to cultural             differences.
+
+
+2.0  Data
+
+2.1  Data Sources
+
+     Foursquare API endpoints provide venue database for both Toronto and       New York.This database has over sixty descriptive attributes that          very well describe each venue.Borough and neighborhood data for both       cities is readily available from many sources such as            https://geo.nyu.edu/catalog/nyu_2451_34572.These sources will            provide venue data and venue selection within city centre radius. 
+     Python geopy.geocoders  package provides tools for geolocation of          cities.
+
+ 
+   
